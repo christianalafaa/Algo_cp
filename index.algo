@@ -1,0 +1,25 @@
+ALGORITHM algorithm_name
+VAR
+    vowelCount:=0;
+    sentenceLength:0;
+    count:=0;
+BEGIN
+    FUNCTION sentCount(words) : ARRAY_OF type[length];
+    sentenceLength:=sentence.length
+    for(let i = 0; i < sentence.length; i++){
+    if (sentence[i] === " ")
+    count += 1
+}
+
+    vowelCount:=newSentence.filter(letter => 'aeiou'.includes(letter)).length
+    RETURN [sentenceLength,count,vowelCount]
+
+END
+
+
+
+
+
+
+
+
